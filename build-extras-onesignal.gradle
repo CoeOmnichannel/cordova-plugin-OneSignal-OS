@@ -7,6 +7,7 @@ android.defaultConfig {
 
 // Required for Android Support Library 26.0.0+ and Google Play services 11.+
 repositories {
+google()
   maven { url 'https://maven.google.com' }
 }
 
@@ -15,6 +16,7 @@ repositories {
 // Source for Onesignal-Gradle-Plugin: https://github.com/OneSignal/OneSignal-Gradle-Plugin
 buildscript {
   repositories {
+  google()
     maven { url 'https://plugins.gradle.org/m2/'}
   }
   dependencies {
