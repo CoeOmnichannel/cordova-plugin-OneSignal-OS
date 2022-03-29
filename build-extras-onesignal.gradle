@@ -1,3 +1,11 @@
+android {
+  compileSdkVersion 27
+  buildToolsVersion '27.0.3'
+  defaultConfig {
+    multiDexEnabled true
+  }
+}
+
 android.defaultConfig {
   manifestPlaceholders = [
     onesignal_app_id: '', // Use from js code
